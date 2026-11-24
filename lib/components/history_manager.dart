@@ -19,7 +19,7 @@ class HistoryManager {
     await prefs.setString(historyKey, newHistoryString);
   }
 
-  // Load scan history from SharedPreferences
+  // Load scan history from SharedPreferences 
   static Future<List<Map<String, String>>> loadHistory() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? historyString = prefs.getString(historyKey);

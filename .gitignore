@@ -41,3 +41,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Auto-added ignore rules to prevent large build pushes
+.packages
+*.apk
+*.aab
+*.so
+*.dex
